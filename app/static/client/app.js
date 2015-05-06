@@ -1,5 +1,7 @@
-//todo: bootstrap angular app
+'use strict';
 
-(function() {
-    alert('open');
-})();
+var tempoCM = angular.module('tempoCM', ['menu']);
+
+tempoCM.controller('mainCtrl', function($scope) {
+    $scope.message = "hey ya'll, watch this";
+});
